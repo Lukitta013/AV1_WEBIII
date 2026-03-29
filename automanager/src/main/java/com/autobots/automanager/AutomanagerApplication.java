@@ -9,11 +9,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
 
-import com.autobots.automanager.entidades.Cliente;
-import com.autobots.automanager.entidades.Documento;
-import com.autobots.automanager.entidades.Endereco;
-import com.autobots.automanager.entidades.Telefone;
-import com.autobots.automanager.repositorios.ClienteRepositorio;
+import com.autobots.automanager.model.entity.Cliente;
+import com.autobots.automanager.model.entity.Documento;
+import com.autobots.automanager.model.entity.Endereco;
+import com.autobots.automanager.model.entity.Telefone;
+import com.autobots.automanager.repository.ClienteRepositorio;
 
 @SpringBootApplication
 public class AutomanagerApplication {
